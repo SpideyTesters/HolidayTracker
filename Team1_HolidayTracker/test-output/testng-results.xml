@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="332169" started-at="2022-01-25T11:14:38 IST" finished-at="2022-01-25T11:20:10 IST">
+    <groups>
+      <group name="regression">
+        <method signature="verifytracker.Search()[pri:3, instance:com.becognizant.verify.verifytracker@548a102f]" name="Search" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@548a102f]" name="getholiday" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@548a102f]" name="url" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.validation()[pri:2, instance:com.becognizant.verify.verifytracker@548a102f]" name="validation" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.Search()[pri:3, instance:com.becognizant.verify.verifytracker@60611244]" name="Search" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@60611244]" name="getholiday" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@60611244]" name="url" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.validation()[pri:2, instance:com.becognizant.verify.verifytracker@60611244]" name="validation" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.Search()[pri:3, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="Search" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="getholiday" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="url" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.validation()[pri:2, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="validation" class="com.becognizant.verify.verifytracker"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@548a102f]" name="url" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@60611244]" name="url" class="com.becognizant.verify.verifytracker"/>
+        <method signature="verifytracker.url()[pri:1, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="url" class="com.becognizant.verify.verifytracker"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Chrome" duration-ms="120067" started-at="2022-01-25T11:14:38 IST" finished-at="2022-01-25T11:16:38 IST">
+      <class name="com.becognizant.verify.verifytracker">
+        <test-method status="PASS" signature="invoke(java.lang.String)[pri:0, instance:com.becognizant.verify.verifytracker@548a102f]" name="invoke" is-config="true" duration-ms="10963" started-at="2022-01-25T11:14:38 IST" finished-at="2022-01-25T11:14:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="url()[pri:1, instance:com.becognizant.verify.verifytracker@548a102f]" name="url" duration-ms="52514" started-at="2022-01-25T11:14:49 IST" finished-at="2022-01-25T11:15:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="validation()[pri:2, instance:com.becognizant.verify.verifytracker@548a102f]" name="validation" duration-ms="14" started-at="2022-01-25T11:15:41 IST" finished-at="2022-01-25T11:15:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="Search()[pri:3, instance:com.becognizant.verify.verifytracker@548a102f]" name="Search" duration-ms="5702" started-at="2022-01-25T11:15:41 IST" finished-at="2022-01-25T11:15:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@548a102f]" name="getholiday" duration-ms="48839" started-at="2022-01-25T11:15:47 IST" finished-at="2022-01-25T11:16:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getholiday -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.becognizant.verify.verifytracker@548a102f]" name="close" is-config="true" duration-ms="1947" started-at="2022-01-25T11:16:36 IST" finished-at="2022-01-25T11:16:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </test> <!-- Chrome -->
+    <test name="Edge" duration-ms="96713" started-at="2022-01-25T11:16:38 IST" finished-at="2022-01-25T11:18:15 IST">
+      <class name="com.becognizant.verify.verifytracker">
+        <test-method status="PASS" signature="invoke(java.lang.String)[pri:0, instance:com.becognizant.verify.verifytracker@60611244]" name="invoke" is-config="true" duration-ms="10217" started-at="2022-01-25T11:16:38 IST" finished-at="2022-01-25T11:16:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="url()[pri:1, instance:com.becognizant.verify.verifytracker@60611244]" name="url" duration-ms="29123" started-at="2022-01-25T11:16:48 IST" finished-at="2022-01-25T11:17:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="validation()[pri:2, instance:com.becognizant.verify.verifytracker@60611244]" name="validation" duration-ms="19" started-at="2022-01-25T11:17:17 IST" finished-at="2022-01-25T11:17:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="Search()[pri:3, instance:com.becognizant.verify.verifytracker@60611244]" name="Search" duration-ms="6053" started-at="2022-01-25T11:17:17 IST" finished-at="2022-01-25T11:17:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@60611244]" name="getholiday" duration-ms="48528" started-at="2022-01-25T11:17:23 IST" finished-at="2022-01-25T11:18:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getholiday -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.becognizant.verify.verifytracker@60611244]" name="close" is-config="true" duration-ms="2762" started-at="2022-01-25T11:18:12 IST" finished-at="2022-01-25T11:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </test> <!-- Edge -->
+    <test name="Firefox" duration-ms="115346" started-at="2022-01-25T11:18:15 IST" finished-at="2022-01-25T11:20:10 IST">
+      <class name="com.becognizant.verify.verifytracker">
+        <test-method status="PASS" signature="invoke(java.lang.String)[pri:0, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="invoke" is-config="true" duration-ms="11102" started-at="2022-01-25T11:18:15 IST" finished-at="2022-01-25T11:18:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="url()[pri:1, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="url" duration-ms="44997" started-at="2022-01-25T11:18:26 IST" finished-at="2022-01-25T11:19:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="validation()[pri:2, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="validation" duration-ms="6" started-at="2022-01-25T11:19:11 IST" finished-at="2022-01-25T11:19:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="Search()[pri:3, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="Search" duration-ms="6184" started-at="2022-01-25T11:19:11 IST" finished-at="2022-01-25T11:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="getholiday()[pri:4, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="getholiday" duration-ms="46316" started-at="2022-01-25T11:19:17 IST" finished-at="2022-01-25T11:20:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getholiday -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.becognizant.verify.verifytracker@1a0dcaa]" name="close" is-config="true" duration-ms="6732" started-at="2022-01-25T11:20:03 IST" finished-at="2022-01-25T11:20:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

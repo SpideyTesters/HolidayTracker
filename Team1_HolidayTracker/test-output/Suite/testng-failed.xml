@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser_name" value="chrome"/>
+    <classes>
+      <class name="com.becognizant.verify.verifytracker">
+        <methods>
+          <include name="validation"/>
+          <include name="invoke"/>
+          <include name="getholiday"/>
+          <include name="url"/>
+          <include name="close"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" name="Edge(failed)">
+    <parameter name="browser_name" value="Edge"/>
+    <classes>
+      <class name="com.becognizant.verify.verifytracker">
+        <methods>
+          <include name="validation"/>
+          <include name="invoke"/>
+          <include name="getholiday"/>
+          <include name="url"/>
+          <include name="close"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="browser_name" value="firefox"/>
+    <classes>
+      <class name="com.becognizant.verify.verifytracker">
+        <methods>
+          <include name="validation"/>
+          <include name="invoke"/>
+          <include name="getholiday"/>
+          <include name="url"/>
+          <include name="close"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.becognizant.verify.verifytracker -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
